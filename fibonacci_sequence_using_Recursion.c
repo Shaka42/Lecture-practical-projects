@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 int m = 0,a=1;
-
+//using the recursion for printing the fibonacci_sequence 
 void fibonacci_sequence(int n){
     int temp;
     if(n != 0){
@@ -15,6 +15,9 @@ void fibonacci_sequence(int n){
 }
 
 int main(){
-    fibonacci_sequence(5);
+    int n=0;
+    printf("Enter the numbers of values:");
+    scanf("%d",&n);
+    fibonacci_sequence(n);
     return 0;
 }
