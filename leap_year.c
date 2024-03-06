@@ -14,7 +14,7 @@ int main(){
     int n = 2000;
     //printf("Enter the year:");
     //scanf("%d",&n);
-    for (int i = 0; i < 25; i++,n++)
+    for (int i = 0; i < 31; i++,n++)
     {
         check_leap(n);
     }
